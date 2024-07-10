@@ -1,0 +1,6 @@
+@OunoRentApi_HostAddress = http://localhost:5138
+
+GET {{OunoRentApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
