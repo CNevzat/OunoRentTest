@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OunoRentApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fe2c5e2789425bf1d87ace5489b84acb86c136a")]
 [assembly: System.Reflection.AssemblyProductAttribute("OunoRentApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OunoRentApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,0 +1,13 @@
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/bin/Debug/net8.0/EntityLayer.deps.json
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/bin/Debug/net8.0/EntityLayer.dll
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/bin/Debug/net8.0/EntityLayer.pdb
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/EntityLayer.csproj.AssemblyReference.cache
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/EntityLayer.AssemblyInfoInputs.cache
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/EntityLayer.AssemblyInfo.cs
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/EntityLayer.csproj.CoreCompileInputs.cache
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/EntityLayer.sourcelink.json
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/EntityLayer.dll
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/refint/EntityLayer.dll
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/EntityLayer.pdb
+/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/obj/Debug/net8.0/ref/EntityLayer.dll

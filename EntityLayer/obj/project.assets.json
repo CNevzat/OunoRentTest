@@ -1,11 +1,36 @@
 {
   "version": 3,
   "targets": {
-    "net8.0": {}
+    "net8.0": {
+      "AutoMapper/1.1.0.118": {
+        "type": "package",
+        "compile": {
+          "lib/AutoMapper.dll": {}
+        },
+        "runtime": {
+          "lib/AutoMapper.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AutoMapper/1.1.0.118": {
+      "sha512": "Qn0aw2Oi7lmi3cu125XdrgBoGBCJj2YA9nXo50RMcg6UyWRfGV+EIhcfDT0MrVBMYDgWjQv5fWkf9MYwM52U3A==",
+      "type": "package",
+      "path": "automapper/1.1.0.118",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "automapper.1.1.0.118.nupkg.sha512",
+        "automapper.nuspec",
+        "lib/AutoMapper.dll"
+      ]
+    }
+  },
   "projectFileDependencyGroups": {
-    "net8.0": []
+    "net8.0": [
+      "AutoMapper >= 1.1.0.118"
+    ]
   },
   "packageFolders": {
     "/Users/nevzatcancirpicioglu/.nuget/packages/": {}
@@ -48,6 +73,12 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
+        "dependencies": {
+          "AutoMapper": {
+            "target": "Package",
+            "version": "[1.1.0.118, )"
+          }
+        },
         "imports": [
           "net461",
           "net462",
@@ -67,5 +98,17 @@
         "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.303/PortableRuntimeIdentifierGraph.json"
       }
     }
-  }
+  },
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'AutoMapper 1.1.0.118' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8, .NETFramework,Version=v4.8.1' instead of the project target framework 'net8.0'. This package may not be fully compatible with your project.",
+      "libraryId": "AutoMapper",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
 }

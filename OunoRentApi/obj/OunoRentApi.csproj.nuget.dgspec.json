@@ -130,6 +130,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[1.1.0.118, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -174,6 +180,9 @@
             "projectReferences": {
               "/Users/nevzatcancirpicioglu/OunoRentTest/DataAccessLayer/DataAccessLayer.csproj": {
                 "projectPath": "/Users/nevzatcancirpicioglu/OunoRentTest/DataAccessLayer/DataAccessLayer.csproj"
+              },
+              "/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/EntityLayer.csproj": {
+                "projectPath": "/Users/nevzatcancirpicioglu/OunoRentTest/EntityLayer/EntityLayer.csproj"
               }
             }
           }
@@ -193,9 +202,23 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.7, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.4, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
