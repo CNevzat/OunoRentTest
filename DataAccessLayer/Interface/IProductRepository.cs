@@ -10,5 +10,7 @@ namespace DataAccessLayer.Interface
     public interface IProductRepository
     {
         Task<List<Product>> GetProductsByCategoryAsync(int categoryId);
+
+        Task<Product> GetProductByIdAsync(int productId);
     }
 }

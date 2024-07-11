@@ -20,6 +20,17 @@ namespace DataAccessLayer.Repository
             _applicatioxnDbContext = applicatioxnDbContext;
         }
 
+        public async Task<Product> GetProductByIdAsync(int productId)
+        {
+            var product = await _applicatioxnDbContext.Products
+            .Include(x=> x.Category)
+            .Where(x=> x.Id == productId)
+            .FirstOrDefaultAsync()
+            ?? throw new ArgumentException("Ürün bulunamadı");
+
+            return product;
+        }
+
         public async Task<List<Product>> GetProductsByCategoryAsync(int categoryId)
         {
             var products = await _applicatioxnDbContext.Products
